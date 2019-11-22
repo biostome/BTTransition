@@ -1,0 +1,6 @@
+framework module Pods_BTTransition_Example {
+  umbrella header "Pods-BTTransition_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

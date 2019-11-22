@@ -7,6 +7,7 @@
 //
 
 #import "BTViewController.h"
+#import "BTPresentViewController.h"
 
 @interface BTViewController ()
 
@@ -26,4 +27,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    BTPresentViewController * vc = [[BTPresentViewController alloc]init];;
+    [self presentViewController:vc animated:YES completion:nil];
+    
+}
+
+- (void)performSegueWithIdentifier:(NSString *)identifier sender:(id)sender{
+    
+}
 @end

@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,12 +18,66 @@
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dFb-Df-u1L">
+                                <rect key="frame" x="131" y="100" width="113" height="214"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="179"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dFb-Df-u1L" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="bu0-n8-Mac"/>
+                            <constraint firstItem="dFb-Df-u1L" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="100" id="yha-om-MpB"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="433"/>
+            <point key="canvasLocation" x="304.80000000000001" y="432.23388305847078"/>
+        </scene>
+        <!--Present View Controller-->
+        <scene sceneID="QEj-lS-e4s">
+            <objects>
+                <viewController storyboardIdentifier="BTPresentViewController" id="t6y-I5-udc" customClass="BTPresentViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IPF-F2-N6X"/>
+                        <viewControllerLayoutGuide type="bottom" id="lZl-sX-sP3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="56j-qP-T6X">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="JIy-Ld-h2b">
+                                <rect key="frame" x="14" y="587" width="347" height="31"/>
+                                <connections>
+                                    <action selector="sliderAction:" destination="t6y-I5-udc" eventType="valueChanged" id="oEF-q7-eVS"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="B" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PXt-4K-t6g">
+                                <rect key="frame" x="133" y="363" width="109" height="214"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="179"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="JIy-Ld-h2b" firstAttribute="top" secondItem="PXt-4K-t6g" secondAttribute="bottom" constant="10" id="2mB-26-FHy"/>
+                            <constraint firstItem="lZl-sX-sP3" firstAttribute="top" secondItem="JIy-Ld-h2b" secondAttribute="bottom" constant="50" id="94W-gP-KIj"/>
+                            <constraint firstItem="JIy-Ld-h2b" firstAttribute="trailing" secondItem="56j-qP-T6X" secondAttribute="trailingMargin" id="IC0-TZ-5xN"/>
+                            <constraint firstItem="PXt-4K-t6g" firstAttribute="centerX" secondItem="56j-qP-T6X" secondAttribute="centerX" id="fRg-x0-xoi"/>
+                            <constraint firstItem="JIy-Ld-h2b" firstAttribute="leading" secondItem="56j-qP-T6X" secondAttribute="leadingMargin" id="qVV-cS-m3l"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="slider" destination="JIy-Ld-h2b" id="HyE-Tp-tgj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CtC-X8-gLg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1056.8" y="432.23388305847078"/>
         </scene>
     </scenes>
 </document>
