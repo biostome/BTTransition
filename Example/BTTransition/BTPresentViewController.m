@@ -23,27 +23,14 @@
     UIStoryboard * storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     self = [storyboard instantiateViewControllerWithIdentifier:@"BTPresentViewController"];;
     if (self) {
-        _aniamtion = [[BTCoverVerticalTransition alloc]initPresentViewController:self];
+        _aniamtion = [[BTCoverVerticalTransition alloc]initPresentViewController:self withRragDismissEnabal:YES];
         self.transitioningDelegate = _aniamtion;
     }
     return self;
 }
-
-- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        _aniamtion = [[BTCoverVerticalTransition alloc]initPresentViewController:self];
-        self.transitioningDelegate = _aniamtion;
-    }
-    return self;
-}
-
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    _aniamtion = [[BTCoverVerticalTransition alloc]initPresentViewController:self];
-    self.transitioningDelegate = _aniamtion;
     self.view.backgroundColor = [UIColor.greenColor colorWithAlphaComponent:1];
     [self updatePreferredContentSizeWithTraitCollection:self.traitCollection];
 }

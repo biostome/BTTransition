@@ -116,7 +116,6 @@
     self = [super init];
     if (self) {
         self.viewController = viewController;
-
         UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(handleGesture:)];
         pan.delegate = self;
         [viewController.view addGestureRecognizer:pan];
@@ -178,8 +177,19 @@
     if (self) {
         self.viewController = viewController;
         viewController.modalPresentationStyle = UIModalPresentationCustom;
-        MKInteractiveTransition * interactive = [[MKInteractiveTransition alloc]initWithViewController:viewController];
-        self.interactive = interactive;
+    }
+    return self;
+}
+
+- (instancetype)initPresentViewController:(UIViewController*)viewController withRragDismissEnabal:(BOOL)enabel{
+    self = [super init];
+    if (self) {
+        self.viewController = viewController;
+        viewController.modalPresentationStyle = UIModalPresentationCustom;
+        if (enabel == YES) {
+            MKInteractiveTransition * interactive = [[MKInteractiveTransition alloc]initWithViewController:viewController];
+            self.interactive = interactive;
+        }
     }
     return self;
 }
