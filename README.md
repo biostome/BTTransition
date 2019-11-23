@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/BTTransition.svg?style=flat)](https://cocoapods.org/pods/BTTransition)
 [![Platform](https://img.shields.io/cocoapods/p/BTTransition.svg?style=flat)](https://cocoapods.org/pods/BTTransition)
 
+
+## Preview
+![展示](https://raw.githubusercontent.com/biostome/BTTransition/master/Example/file.gif)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -19,7 +23,6 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'BTTransition'
 ```
-
 
 ## Easy Usg
 ```objc
@@ -36,7 +39,7 @@ pod 'BTTransition'
 
 ## Author
 
-453816118@qq.com, jsleishen@gmail.com
+biostome, 453816118@qq.com
 
 ## License
 
