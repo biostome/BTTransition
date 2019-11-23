@@ -20,6 +20,20 @@ it, simply add the following line to your Podfile:
 pod 'BTTransition'
 ```
 
+
+## Easy Usg
+```objc
+- (instancetype)init{
+    UIStoryboard * storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    self = [storyboard instantiateViewControllerWithIdentifier:@"BTPresentViewController"];;
+    if (self) {
+        _aniamtion = [[BTCoverVerticalTransition alloc]initPresentViewController:self withRragDismissEnabal:YES];
+        self.transitioningDelegate = _aniamtion;
+    }
+    return self;
+}
+```
+
 ## Author
 
 453816118@qq.com, jsleishen@gmail.com
