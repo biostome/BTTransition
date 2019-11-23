@@ -8,6 +8,9 @@
       location = "group:../README.md">
    </FileRef>
    <FileRef
+      location = "group:file.gif">
+   </FileRef>
+   <FileRef
       location = "group:BTTransition.xcodeproj">
    </FileRef>
    <FileRef
