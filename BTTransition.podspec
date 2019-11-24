@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 A custom view controller transition animation ,container any transition 
                        DESC
 
-  s.homepage         = 'https://github.com/453816118@qq.com/BTTransition'
+  s.homepage         = 'https://github.com/biostome/BTTransition'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'biostome' => '453816118@qq.com' }
