@@ -26,6 +26,7 @@ pod 'BTTransition'
 
 ## Easy Usg
 ```objc
+@implementation BTPresentViewController
 - (instancetype)init{
     UIStoryboard * storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     self = [storyboard instantiateViewControllerWithIdentifier:@"BTPresentViewController"];;
@@ -35,6 +36,41 @@ pod 'BTTransition'
     }
     return self;
 }
+...
+@end
+
+```
+Or
+```
+@implementation BTPresentViewController
+- (instancetype)init{
+    [super init];
+    if (self) {
+        _aniamtion = [[BTCoverVerticalTransition alloc]initPresentViewController:self withRragDismissEnabal:YES];
+        self.transitioningDelegate = _aniamtion;
+    }
+    return self;
+}
+...
+@end
+```
+# How present
+
+```objc
+@implementation
+
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    ...
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    BTPresentViewController * vc = [[BTPresentViewController alloc]init];;
+    [self presentViewController:vc animated:YES completion:nil];
+}
+...
+@end
 ```
 
 ## Author
