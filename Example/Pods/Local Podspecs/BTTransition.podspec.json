@@ -1,9 +1,9 @@
 {
   "name": "BTTransition",
-  "version": "0.1.0",
-  "summary": "A short description of BTTransition.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/453816118@qq.com/BTTransition",
+  "version": "0.1.1",
+  "summary": "a custom view controller transition animation",
+  "description": "A custom view controller transition animation ,container any transition",
+  "homepage": "https://github.com/biostome/BTTransition",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,11 @@
     "biostome": "453816118@qq.com"
   },
   "source": {
-    "git": "https://github.com/453816118@qq.com/BTTransition.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/biostome/BTTransition.git",
+    "tag": "0.1.1"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "8.0"
   },
   "source_files": "BTTransition/Classes/**/*"
 }

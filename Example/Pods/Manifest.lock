@@ -1,5 +1,5 @@
 PODS:
-  - BTTransition (0.1.0)
+  - BTTransition (0.1.1)
 
 DEPENDENCIES:
   - BTTransition (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BTTransition: 1170effc4343cb5b7f7428013d5c76163c3fcf38
+  BTTransition: cab20c9f8ca4cf58e206404bb614347d2bdee2f6
 
 PODFILE CHECKSUM: d38c09afd93418b2b23e713937c288fdba0de1e4
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.8.4

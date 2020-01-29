@@ -138,6 +138,7 @@
             [self updateInteractiveTransition:persent];
             break;
         }
+        case UIGestureRecognizerStateCancelled:
         case UIGestureRecognizerStateEnded:{
             self.interative = NO;
             if (persent > 0.5 || speed.y > 920) {
