@@ -7,7 +7,9 @@
 
 
 ## Preview
-![展示](https://raw.githubusercontent.com/biostome/BTTransition/master/Example/file.gif)
+### add new byside of animate transition
+![展示](https://raw.githubusercontent.com/biostome/BTTransition/master/Example/a1.gif)
+![展示](https://raw.githubusercontent.com/biostome/BTTransition/master/Example/a2.gif)
 
 ## Example
 
