@@ -42,23 +42,23 @@
 		1CEA5A52173A0C1AA4FA3571A6366EE5 /* BTTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTTransition-prefix.pch"; sourceTree = "<group>"; };
 		1D0D24CE5A465C1B0A1543192BFD893E /* Pods-BTTransition_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BTTransition_Tests-umbrella.h"; sourceTree = "<group>"; };
 		24E46C39F7011010820AD8D31BD2232D /* Pods-BTTransition_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTTransition_Tests-Info.plist"; sourceTree = "<group>"; };
-		25492420FB93AD165304EB008C0CED73 /* Pods_BTTransition_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BTTransition_Tests.framework; path = "Pods-BTTransition_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25492420FB93AD165304EB008C0CED73 /* Pods_BTTransition_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTTransition_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE939476A9B7D32C6A15CFEA9CF779B /* Pods-BTTransition_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BTTransition_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		311A4DFCFB1C19671AB5972005AEA3EB /* BTTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTTransition-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		35345C021DF32F1508D3781F1187D887 /* Pods-BTTransition_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BTTransition_Tests-dummy.m"; sourceTree = "<group>"; };
-		428114C6540909E493DA786B378CF452 /* BTTransition.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BTTransition.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		428114C6540909E493DA786B378CF452 /* BTTransition.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BTTransition.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		42F48B51F276520686F3795C9D1ADB17 /* BTCoverVerticalTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCoverVerticalTransition.m; path = BTTransition/Classes/TransitionAnimation/BTCoverVerticalTransition.m; sourceTree = "<group>"; };
 		4A25043109E1888170F085033FC5CA32 /* Pods-BTTransition_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BTTransition_Example-umbrella.h"; sourceTree = "<group>"; };
 		63C2AC1BBD3DD7DA09C2EC61411CBE08 /* Pods-BTTransition_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTTransition_Example.release.xcconfig"; sourceTree = "<group>"; };
 		70886C2F21D2BBC79FF1D1DDFC9F389B /* Pods-BTTransition_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTTransition_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		750BB844BECD5D311425D86B0C15DE7D /* Pods-BTTransition_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTTransition_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		75CB49F24BEB11125C202298DCA6CD92 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		75CB49F24BEB11125C202298DCA6CD92 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7EEC97EA00BD148FD8C815139099F18D /* Pods-BTTransition_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTTransition_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8085266D4908C25BD4C8DD6402D9A5CD /* Pods-BTTransition_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BTTransition_Tests.modulemap"; sourceTree = "<group>"; };
 		899FAB914FAAFDF80F2F34767CF06561 /* Pods-BTTransition_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTTransition_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		903C401C73012FF89FA4CDB7D12F5528 /* BTTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BTTransition.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AC63D9E9BB5A162B11B17A17AA53B077 /* BTTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BTTransition.modulemap; sourceTree = "<group>"; };
 		AD1E3D7DC587B7045D069A0A7E8E7ACD /* Pods-BTTransition_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BTTransition_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B277409105085BE02B6458E032D2F7D7 /* Pods-BTTransition_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BTTransition_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -66,10 +66,10 @@
 		B884124E0772C75C5B0FBDA7071807C4 /* BTTransition-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BTTransition-Info.plist"; sourceTree = "<group>"; };
 		BE3933752857D292E337624FD970F9CE /* Pods-BTTransition_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTTransition_Example-Info.plist"; sourceTree = "<group>"; };
 		C44951B633FB5956726B1F8A0323A42F /* BTCoverVerticalTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCoverVerticalTransition.h; path = BTTransition/Classes/TransitionAnimation/BTCoverVerticalTransition.h; sourceTree = "<group>"; };
-		CC7B7CB4803703873DD086DA6180FE43 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		CFA603B4203A693B9F705008F78E3D93 /* Pods_BTTransition_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BTTransition_Example.framework; path = "Pods-BTTransition_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7B7CB4803703873DD086DA6180FE43 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CFA603B4203A693B9F705008F78E3D93 /* Pods_BTTransition_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTTransition_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C41B9C3D1CBBCFEDC77EB601E714B2 /* Pods-BTTransition_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTTransition_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D3622C0482B0E0D94519125F48A89FF7 /* BTTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BTTransition.framework; path = BTTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3622C0482B0E0D94519125F48A89FF7 /* BTTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BTTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4C416B67A76C4948786BFCD6C2AED8A /* Pods-BTTransition_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BTTransition_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -527,8 +527,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
