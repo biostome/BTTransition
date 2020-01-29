@@ -26,18 +26,26 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6cL-tE-1qf">
-                                <rect key="frame" x="61.5" y="318.5" width="252" height="30"/>
-                                <state key="normal" title="Click me to Present B ViewController"/>
+                                <rect key="frame" x="133.5" y="318.5" width="108" height="30"/>
+                                <state key="normal" title="点击我显示弹窗"/>
                                 <connections>
                                     <action selector="presentBAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="3cW-up-Vqc"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="向右拖拽显示侧边栏" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHL-lf-hba">
+                                <rect key="frame" x="109.5" y="370" width="156" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6cL-tE-1qf" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" id="06e-mZ-SkA"/>
+                            <constraint firstItem="MHL-lf-hba" firstAttribute="top" secondItem="6cL-tE-1qf" secondAttribute="bottom" constant="21.5" id="0uY-pA-XFx"/>
                             <constraint firstItem="6cL-tE-1qf" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="3ac-ag-I8g"/>
                             <constraint firstItem="dFb-Df-u1L" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="bu0-n8-Mac"/>
+                            <constraint firstItem="MHL-lf-hba" firstAttribute="centerX" secondItem="6cL-tE-1qf" secondAttribute="centerX" id="eYw-ur-tfw"/>
                             <constraint firstItem="dFb-Df-u1L" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="100" id="yha-om-MpB"/>
                         </constraints>
                     </view>
