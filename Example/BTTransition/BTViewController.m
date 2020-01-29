@@ -8,9 +8,11 @@
 
 #import "BTViewController.h"
 #import "BTPresentViewController.h"
+#import <BTCoverHorizontalTransition.h>
+#import "BTLeftViewController.h"
 
-@interface BTViewController ()
-
+@interface BTViewController ()<BTInteractiveTransitionDelegate>
+@property (nonatomic, strong) BTCoverHorizontalPresentInteractive *persentInteractive;
 @end
 
 @implementation BTViewController
@@ -19,21 +21,27 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    BTPresentViewController * vc = [[BTPresentViewController alloc]init];;
-    [self presentViewController:vc animated:YES completion:nil];
     
+    BTCoverHorizontalPresentInteractive * persentInteractive = [[BTCoverHorizontalPresentInteractive alloc]init];
+    self.persentInteractive = persentInteractive;
+    persentInteractive.delegate = self;
+    [persentInteractive addPanGestureToViewController:self];
 }
+
+- (IBAction)presentBAction:(id)sender {
+    BTPresentViewController * vc = [[BTPresentViewController alloc]init];
+    [self presentViewController:vc animated:YES completion:nil];
+}
+
 
 - (void)performSegueWithIdentifier:(NSString *)identifier sender:(id)sender{
     
+}
+
+#pragma mark - BTInteractiveTransitionDelegate
+- (void)beginPresentViewControllerForInteractive:(UIPercentDrivenInteractiveTransition *)intractive{
+    BTLeftViewController * vc = [[BTLeftViewController alloc]init];
+    vc.aniamtion.presentInteractive = self.persentInteractive;
+    [self presentViewController:vc animated:YES completion:nil];
 }
 @end

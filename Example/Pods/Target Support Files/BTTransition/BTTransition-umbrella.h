@@ -10,7 +10,9 @@
 #endif
 #endif
 
+#import "BTCoverHorizontalTransition.h"
 #import "BTCoverVerticalTransition.h"
+#import "BTTransitionAnimationDelegate.h"
 
 FOUNDATION_EXPORT double BTTransitionVersionNumber;
 FOUNDATION_EXPORT const unsigned char BTTransitionVersionString[];

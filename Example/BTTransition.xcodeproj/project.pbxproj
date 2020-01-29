@@ -25,6 +25,7 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		961BEF49A676C9D4C178277B /* Pods_BTTransition_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 396DC0B1056C7AD7CEE7B7D2 /* Pods_BTTransition_Tests.framework */; };
 		99041C1B238789B9009CFAFA /* BTPresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99041C1A238789B9009CFAFA /* BTPresentViewController.m */; };
+		991A756423E1545100E708A3 /* BTLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 991A756323E1545100E708A3 /* BTLeftViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		99041C19238789B9009CFAFA /* BTPresentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTPresentViewController.h; sourceTree = "<group>"; };
 		99041C1A238789B9009CFAFA /* BTPresentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTPresentViewController.m; sourceTree = "<group>"; };
+		991A756223E1545100E708A3 /* BTLeftViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTLeftViewController.h; sourceTree = "<group>"; };
+		991A756323E1545100E708A3 /* BTLeftViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTLeftViewController.m; sourceTree = "<group>"; };
 		ECA658FC3D78DD7DA23DF894 /* Pods-BTTransition_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTTransition_Tests.release.xcconfig"; path = "Target Support Files/Pods-BTTransition_Tests/Pods-BTTransition_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -142,6 +145,8 @@
 				6003F5A6195388D20070C39A /* BTViewController.m */,
 				99041C19238789B9009CFAFA /* BTPresentViewController.h */,
 				99041C1A238789B9009CFAFA /* BTPresentViewController.m */,
+				991A756223E1545100E708A3 /* BTLeftViewController.h */,
+				991A756323E1545100E708A3 /* BTLeftViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -373,6 +378,7 @@
 				6003F5A7195388D20070C39A /* BTViewController.m in Sources */,
 				99041C1B238789B9009CFAFA /* BTPresentViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				991A756423E1545100E708A3 /* BTLeftViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

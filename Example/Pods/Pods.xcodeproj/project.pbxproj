@@ -8,16 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		0277C6C8699B4C5F691855116A726EED /* Pods-BTTransition_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C416B67A76C4948786BFCD6C2AED8A /* Pods-BTTransition_Example-dummy.m */; };
-		157BA5F145BBD137037D29BC8DD7BF0B /* BTCoverVerticalTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = C44951B633FB5956726B1F8A0323A42F /* BTCoverVerticalTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2614919F07D0EB84000938A80EDE425F /* BTCoverHorizontalTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9740306FF118A3E16DD7C68206D76DC3 /* BTCoverHorizontalTransition.m */; };
 		2717915CAE722250371D391486EB3D76 /* Pods-BTTransition_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D0D24CE5A465C1B0A1543192BFD893E /* Pods-BTTransition_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3092469DA6069EDB27C3822C33C5BD0D /* BTTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E113434A739E1759CED7E002A30A666 /* BTTransition-dummy.m */; };
 		4B4A2F3B063AB9D38240B91BF10A81B7 /* Pods-BTTransition_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A25043109E1888170F085033FC5CA32 /* Pods-BTTransition_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55B8E7D2B734D05D7A4568CF4CCFE1A4 /* BTTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13733A967EDE7FA3D24CDC3CB007568A /* BTTransition-dummy.m */; };
+		5485D911AA8C76163B3DEEF9C5176E60 /* BTCoverHorizontalTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = F4423DB75F83BF8E7D428A85DF621E89 /* BTCoverHorizontalTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5770C538C44B9CAF87059C31B9D88778 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		A1B1454ADCC779D3197F611A34E7315E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C7A15C47790CFCA7AA22A966107167A8 /* BTTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 311A4DFCFB1C19671AB5972005AEA3EB /* BTTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DFEDD2A93797DD955935CF55F4315274 /* BTCoverVerticalTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F48B51F276520686F3795C9D1ADB17 /* BTCoverVerticalTransition.m */; };
+		88B6B00926F2342DD1ACC362FF572AB9 /* BTCoverVerticalTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 82D07A77BEAF2E03B95C3DCD4C18220B /* BTCoverVerticalTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A70CBE440D0F80F10442D47F9FD6338 /* BTCoverVerticalTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E7B0BE94D1C8D9091BAA6CCA980138 /* BTCoverVerticalTransition.m */; };
+		8F5D333E52E0BBBB75224E84642B433F /* BTTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD4E6715CC32489EBE704C71C61E7C1 /* BTTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9F95EFAE69D306DE008B0DA09921928 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		E291175AB63AF2D8378CEB2204D27F9F /* Pods-BTTransition_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35345C021DF32F1508D3781F1187D887 /* Pods-BTTransition_Tests-dummy.m */; };
 		FB09EF018B93EE3C2167FCADF66F1BDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FEAC50F9B759214CF7A3034C321E70A5 /* BTTransitionAnimationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4F0E835FFC80A01772919E5CBC93BA /* BTTransitionAnimationDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,39 +41,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		13733A967EDE7FA3D24CDC3CB007568A /* BTTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BTTransition-dummy.m"; sourceTree = "<group>"; };
-		1CEA5A52173A0C1AA4FA3571A6366EE5 /* BTTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTTransition-prefix.pch"; sourceTree = "<group>"; };
 		1D0D24CE5A465C1B0A1543192BFD893E /* Pods-BTTransition_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BTTransition_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1DD4E6715CC32489EBE704C71C61E7C1 /* BTTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTTransition-umbrella.h"; sourceTree = "<group>"; };
 		24E46C39F7011010820AD8D31BD2232D /* Pods-BTTransition_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTTransition_Tests-Info.plist"; sourceTree = "<group>"; };
-		25492420FB93AD165304EB008C0CED73 /* Pods_BTTransition_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTTransition_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25492420FB93AD165304EB008C0CED73 /* Pods_BTTransition_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BTTransition_Tests.framework; path = "Pods-BTTransition_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE939476A9B7D32C6A15CFEA9CF779B /* Pods-BTTransition_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BTTransition_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		311A4DFCFB1C19671AB5972005AEA3EB /* BTTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTTransition-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		35345C021DF32F1508D3781F1187D887 /* Pods-BTTransition_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BTTransition_Tests-dummy.m"; sourceTree = "<group>"; };
-		428114C6540909E493DA786B378CF452 /* BTTransition.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BTTransition.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		42F48B51F276520686F3795C9D1ADB17 /* BTCoverVerticalTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCoverVerticalTransition.m; path = BTTransition/Classes/TransitionAnimation/BTCoverVerticalTransition.m; sourceTree = "<group>"; };
 		4A25043109E1888170F085033FC5CA32 /* Pods-BTTransition_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BTTransition_Example-umbrella.h"; sourceTree = "<group>"; };
+		4FFA1F1C0A8199EF2163DC589B0AF69E /* BTTransition.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BTTransition.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		621CA3276097FDBE1CE160D4E121B8CE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		63C2AC1BBD3DD7DA09C2EC61411CBE08 /* Pods-BTTransition_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTTransition_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6541BE441ED0FAC3AE871165C5597A03 /* BTTransition-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BTTransition-Info.plist"; sourceTree = "<group>"; };
 		70886C2F21D2BBC79FF1D1DDFC9F389B /* Pods-BTTransition_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTTransition_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		750BB844BECD5D311425D86B0C15DE7D /* Pods-BTTransition_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTTransition_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		75CB49F24BEB11125C202298DCA6CD92 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7B005F739827C5D03E501588F0FCC8A1 /* BTTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BTTransition.xcconfig; sourceTree = "<group>"; };
+		7D85E35F50F58241DF95887801B5FC7F /* BTTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTTransition-prefix.pch"; sourceTree = "<group>"; };
 		7EEC97EA00BD148FD8C815139099F18D /* Pods-BTTransition_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTTransition_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8085266D4908C25BD4C8DD6402D9A5CD /* Pods-BTTransition_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BTTransition_Tests.modulemap"; sourceTree = "<group>"; };
+		82D07A77BEAF2E03B95C3DCD4C18220B /* BTCoverVerticalTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCoverVerticalTransition.h; path = BTTransition/Classes/TransitionAnimation/BTCoverVerticalTransition.h; sourceTree = "<group>"; };
 		899FAB914FAAFDF80F2F34767CF06561 /* Pods-BTTransition_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTTransition_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		903C401C73012FF89FA4CDB7D12F5528 /* BTTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BTTransition.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AC63D9E9BB5A162B11B17A17AA53B077 /* BTTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BTTransition.modulemap; sourceTree = "<group>"; };
+		8E113434A739E1759CED7E002A30A666 /* BTTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BTTransition-dummy.m"; sourceTree = "<group>"; };
+		9740306FF118A3E16DD7C68206D76DC3 /* BTCoverHorizontalTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCoverHorizontalTransition.m; path = BTTransition/Classes/TransitionAnimation/BTCoverHorizontalTransition.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA4F0E835FFC80A01772919E5CBC93BA /* BTTransitionAnimationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTTransitionAnimationDelegate.h; path = BTTransition/Classes/TransitionAnimation/BTTransitionAnimationDelegate.h; sourceTree = "<group>"; };
 		AD1E3D7DC587B7045D069A0A7E8E7ACD /* Pods-BTTransition_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BTTransition_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B277409105085BE02B6458E032D2F7D7 /* Pods-BTTransition_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BTTransition_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B49604502E4B38011EFA90B266BB1907 /* Pods-BTTransition_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BTTransition_Example.modulemap"; sourceTree = "<group>"; };
-		B884124E0772C75C5B0FBDA7071807C4 /* BTTransition-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BTTransition-Info.plist"; sourceTree = "<group>"; };
 		BE3933752857D292E337624FD970F9CE /* Pods-BTTransition_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTTransition_Example-Info.plist"; sourceTree = "<group>"; };
-		C44951B633FB5956726B1F8A0323A42F /* BTCoverVerticalTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCoverVerticalTransition.h; path = BTTransition/Classes/TransitionAnimation/BTCoverVerticalTransition.h; sourceTree = "<group>"; };
-		CC7B7CB4803703873DD086DA6180FE43 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		CFA603B4203A693B9F705008F78E3D93 /* Pods_BTTransition_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTTransition_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA603B4203A693B9F705008F78E3D93 /* Pods_BTTransition_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BTTransition_Example.framework; path = "Pods-BTTransition_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C41B9C3D1CBBCFEDC77EB601E714B2 /* Pods-BTTransition_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTTransition_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D3622C0482B0E0D94519125F48A89FF7 /* BTTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BTTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21C468B67778BDC9FA53C942615547D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D3622C0482B0E0D94519125F48A89FF7 /* BTTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BTTransition.framework; path = BTTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4C416B67A76C4948786BFCD6C2AED8A /* Pods-BTTransition_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BTTransition_Example-dummy.m"; sourceTree = "<group>"; };
+		D64C0C95E8EF1DE2D80AF826C362278B /* BTTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BTTransition.modulemap; sourceTree = "<group>"; };
+		E3E7B0BE94D1C8D9091BAA6CCA980138 /* BTCoverVerticalTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCoverVerticalTransition.m; path = BTTransition/Classes/TransitionAnimation/BTCoverVerticalTransition.m; sourceTree = "<group>"; };
+		F4423DB75F83BF8E7D428A85DF621E89 /* BTCoverHorizontalTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCoverHorizontalTransition.h; path = BTTransition/Classes/TransitionAnimation/BTCoverHorizontalTransition.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,19 +88,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		95A562DB4BD3F4A8C5432670DE998BC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F95EFAE69D306DE008B0DA09921928 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BC28336D9FC13C68D5387F1BDC3DFA40 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5770C538C44B9CAF87059C31B9D88778 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C79BA90D36CC8F221FF80E4C1F77B2BA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A1B1454ADCC779D3197F611A34E7315E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,36 +143,51 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4AA1FFBF7F2F25B3E2AF8EF4CA37A4DF /* Development Pods */ = {
+		659CAE74004260C4DE7BB013588094CD /* BTTransition */ = {
 			isa = PBXGroup;
 			children = (
-				F9B7DF7E188D5F123694DF580A7D7F77 /* BTTransition */,
+				F4423DB75F83BF8E7D428A85DF621E89 /* BTCoverHorizontalTransition.h */,
+				9740306FF118A3E16DD7C68206D76DC3 /* BTCoverHorizontalTransition.m */,
+				82D07A77BEAF2E03B95C3DCD4C18220B /* BTCoverVerticalTransition.h */,
+				E3E7B0BE94D1C8D9091BAA6CCA980138 /* BTCoverVerticalTransition.m */,
+				AA4F0E835FFC80A01772919E5CBC93BA /* BTTransitionAnimationDelegate.h */,
+				7C5C486300F871EE464AFA5D3EE949FD /* Pod */,
+				A680554F6ADAE6EB96D451C124CF69CD /* Support Files */,
+			);
+			name = BTTransition;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7C5C486300F871EE464AFA5D3EE949FD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4FFA1F1C0A8199EF2163DC589B0AF69E /* BTTransition.podspec */,
+				D21C468B67778BDC9FA53C942615547D /* LICENSE */,
+				621CA3276097FDBE1CE160D4E121B8CE /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8A8A5928628A594EF7CD4170E556D1D7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				659CAE74004260C4DE7BB013588094CD /* BTTransition */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		556216E19D90C63178B001999437FB81 /* Support Files */ = {
+		A680554F6ADAE6EB96D451C124CF69CD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AC63D9E9BB5A162B11B17A17AA53B077 /* BTTransition.modulemap */,
-				903C401C73012FF89FA4CDB7D12F5528 /* BTTransition.xcconfig */,
-				13733A967EDE7FA3D24CDC3CB007568A /* BTTransition-dummy.m */,
-				B884124E0772C75C5B0FBDA7071807C4 /* BTTransition-Info.plist */,
-				1CEA5A52173A0C1AA4FA3571A6366EE5 /* BTTransition-prefix.pch */,
-				311A4DFCFB1C19671AB5972005AEA3EB /* BTTransition-umbrella.h */,
+				D64C0C95E8EF1DE2D80AF826C362278B /* BTTransition.modulemap */,
+				7B005F739827C5D03E501588F0FCC8A1 /* BTTransition.xcconfig */,
+				8E113434A739E1759CED7E002A30A666 /* BTTransition-dummy.m */,
+				6541BE441ED0FAC3AE871165C5597A03 /* BTTransition-Info.plist */,
+				7D85E35F50F58241DF95887801B5FC7F /* BTTransition-prefix.pch */,
+				1DD4E6715CC32489EBE704C71C61E7C1 /* BTTransition-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/BTTransition";
-			sourceTree = "<group>";
-		};
-		58FFD1E5271B24E671D3EB51DA1436B9 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				428114C6540909E493DA786B378CF452 /* BTTransition.podspec */,
-				75CB49F24BEB11125C202298DCA6CD92 /* LICENSE */,
-				CC7B7CB4803703873DD086DA6180FE43 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -181,7 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				4AA1FFBF7F2F25B3E2AF8EF4CA37A4DF /* Development Pods */,
+				8A8A5928628A594EF7CD4170E556D1D7 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				316946A2C6B0F0FA42AF30614E6EEEB3 /* Products */,
 				1CE0D6419E01F3B356755FB84F7DB1DD /* Targets Support Files */,
@@ -212,27 +233,17 @@
 			path = "Target Support Files/Pods-BTTransition_Tests";
 			sourceTree = "<group>";
 		};
-		F9B7DF7E188D5F123694DF580A7D7F77 /* BTTransition */ = {
-			isa = PBXGroup;
-			children = (
-				C44951B633FB5956726B1F8A0323A42F /* BTCoverVerticalTransition.h */,
-				42F48B51F276520686F3795C9D1ADB17 /* BTCoverVerticalTransition.m */,
-				58FFD1E5271B24E671D3EB51DA1436B9 /* Pod */,
-				556216E19D90C63178B001999437FB81 /* Support Files */,
-			);
-			name = BTTransition;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4F44D6E5E0C7A837B248056D7F27C101 /* Headers */ = {
+		19200CF8D7BE30D6E8477A6E177AB73C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				157BA5F145BBD137037D29BC8DD7BF0B /* BTCoverVerticalTransition.h in Headers */,
-				C7A15C47790CFCA7AA22A966107167A8 /* BTTransition-umbrella.h in Headers */,
+				5485D911AA8C76163B3DEEF9C5176E60 /* BTCoverHorizontalTransition.h in Headers */,
+				88B6B00926F2342DD1ACC362FF572AB9 /* BTCoverVerticalTransition.h in Headers */,
+				8F5D333E52E0BBBB75224E84642B433F /* BTTransition-umbrella.h in Headers */,
+				FEAC50F9B759214CF7A3034C321E70A5 /* BTTransitionAnimationDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,12 +287,12 @@
 		};
 		BCD2B8AD41339F625DACD6B7EA57F871 /* BTTransition */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42CAA565F790F05430445F71F7E8E5E7 /* Build configuration list for PBXNativeTarget "BTTransition" */;
+			buildConfigurationList = 8DC32E3E50D16C12AD74CD3D0BEF8A3F /* Build configuration list for PBXNativeTarget "BTTransition" */;
 			buildPhases = (
-				4F44D6E5E0C7A837B248056D7F27C101 /* Headers */,
-				135ACE6AD07AE87E9655CED9840140BB /* Sources */,
-				C79BA90D36CC8F221FF80E4C1F77B2BA /* Frameworks */,
-				EAAA39B23B4C6453C5812B81372B3A39 /* Resources */,
+				19200CF8D7BE30D6E8477A6E177AB73C /* Headers */,
+				CA7DA91B192AD9CC0BC786A790C60EFF /* Sources */,
+				95A562DB4BD3F4A8C5432670DE998BC1 /* Frameworks */,
+				4A26319B10799918F503080CFFBA7994 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -340,6 +351,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4A26319B10799918F503080CFFBA7994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		606C85C4B083B29D42466020A2D73F83 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -354,30 +372,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EAAA39B23B4C6453C5812B81372B3A39 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		135ACE6AD07AE87E9655CED9840140BB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DFEDD2A93797DD955935CF55F4315274 /* BTCoverVerticalTransition.m in Sources */,
-				55B8E7D2B734D05D7A4568CF4CCFE1A4 /* BTTransition-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C844586383BEBED593C9700C16B54B48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0277C6C8699B4C5F691855116A726EED /* Pods-BTTransition_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA7DA91B192AD9CC0BC786A790C60EFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2614919F07D0EB84000938A80EDE425F /* BTCoverHorizontalTransition.m in Sources */,
+				8A70CBE440D0F80F10442D47F9FD6338 /* BTCoverVerticalTransition.m in Sources */,
+				3092469DA6069EDB27C3822C33C5BD0D /* BTTransition-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,7 +539,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -630,9 +643,41 @@
 			};
 			name = Debug;
 		};
-		D2E964089D7BAD9AD0DD5070A71D64DF /* Debug */ = {
+		A2335A1F5964556342D0A579846D3949 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 903C401C73012FF89FA4CDB7D12F5528 /* BTTransition.xcconfig */;
+			baseConfigurationReference = 7B005F739827C5D03E501588F0FCC8A1 /* BTTransition.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BTTransition/BTTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BTTransition/BTTransition-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BTTransition/BTTransition.modulemap";
+				PRODUCT_MODULE_NAME = BTTransition;
+				PRODUCT_NAME = BTTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C5F233549CFE57DD70DCDE780D34F25F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B005F739827C5D03E501588F0FCC8A1 /* BTTransition.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -695,38 +740,6 @@
 			};
 			name = Release;
 		};
-		FC7C04A99DB2892E590917885551C88A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 903C401C73012FF89FA4CDB7D12F5528 /* BTTransition.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BTTransition/BTTransition-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BTTransition/BTTransition-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BTTransition/BTTransition.modulemap";
-				PRODUCT_MODULE_NAME = BTTransition;
-				PRODUCT_NAME = BTTransition;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -739,20 +752,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42CAA565F790F05430445F71F7E8E5E7 /* Build configuration list for PBXNativeTarget "BTTransition" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D2E964089D7BAD9AD0DD5070A71D64DF /* Debug */,
-				FC7C04A99DB2892E590917885551C88A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
 				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DC32E3E50D16C12AD74CD3D0BEF8A3F /* Build configuration list for PBXNativeTarget "BTTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F233549CFE57DD70DCDE780D34F25F /* Debug */,
+				A2335A1F5964556342D0A579846D3949 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
