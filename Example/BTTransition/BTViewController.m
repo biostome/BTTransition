@@ -10,18 +10,19 @@
 #import "BTPresentViewController.h"
 #import <BTCoverHorizontalTransition.h>
 #import "BTLeftViewController.h"
+#import "BTCoverHorizontalPresentInteractive.h"
 
-@interface BTViewController ()<BTInteractiveTransitionDelegate>
+@interface BTViewController ()<BTInteractiveTransitionDelegate,UIViewControllerTransitioningDelegate>
+@property (weak, nonatomic) IBOutlet UITextField *textField;
 @property (nonatomic, strong) BTCoverHorizontalPresentInteractive *persentInteractive;
 @end
 
 @implementation BTViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad{
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    
+
     BTCoverHorizontalPresentInteractive * persentInteractive = [[BTCoverHorizontalPresentInteractive alloc]init];
     self.persentInteractive = persentInteractive;
     persentInteractive.delegate = self;
@@ -33,15 +34,10 @@
     [self presentViewController:vc animated:YES completion:nil];
 }
 
-
-- (void)performSegueWithIdentifier:(NSString *)identifier sender:(id)sender{
-    
-}
-
 #pragma mark - BTInteractiveTransitionDelegate
 - (void)beginPresentViewControllerForInteractive:(UIPercentDrivenInteractiveTransition *)intractive{
     BTLeftViewController * vc = [[BTLeftViewController alloc]init];
-    vc.aniamtion.presentInteractive = self.persentInteractive;
     [self presentViewController:vc animated:YES completion:nil];
 }
+
 @end

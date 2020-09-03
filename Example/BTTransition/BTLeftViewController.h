@@ -7,12 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <BTCoverHorizontalTransition.h>
+#import <BTCoverHorizontalPresentInteractive.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface BTLeftViewController : UIViewController
-@property (nonatomic, strong) BTCoverHorizontalTransition *aniamtion;
+@property (nonatomic, weak) BTCoverHorizontalPresentInteractive *persentInteractive;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -10,8 +10,11 @@
 #endif
 #endif
 
+#import "BTCoverHorizontalDismissInteractive.h"
+#import "BTCoverHorizontalPresentInteractive.h"
 #import "BTCoverHorizontalTransition.h"
 #import "BTCoverVerticalTransition.h"
+#import "BTHorizontalPresentController.h"
 #import "BTTransitionAnimationDelegate.h"
 
 FOUNDATION_EXPORT double BTTransitionVersionNumber;

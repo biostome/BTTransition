@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol BTPresentedViewControllerDelegate <NSObject>
+@protocol BTPresentedViewControllerDelegate <UIAdaptivePresentationControllerDelegate>
 @optional
 
 /// 点击背景视图关闭前代理方法 默认YES，返回NO则点击不会关闭视图
